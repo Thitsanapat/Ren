@@ -1,0 +1,17 @@
+{
+  "name": "tensorflow-api",
+  "version": "1.0.0",
+  "description": "Node.js app with TensorFlow.js for text clustering",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "@tensorflow-models/universal-sentence-encoder": "^2.0.0",
+    "@tensorflow/tfjs-node": "^3.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
